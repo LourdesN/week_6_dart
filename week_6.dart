@@ -1,6 +1,6 @@
 import 'dart:io';
 void main(){
-  // question1
+  // question 1
   int sum;
   print("Enter a number:");
   int num1= int.parse(stdin.readLineSync()!);
@@ -9,12 +9,12 @@ void main(){
   sum = num1 + num2;
   print("The Sum is:$sum");
   
-    // question2
+    // question 2
     for(int z=0; z<=10;z++){
     print(z);
     }
 
-      // question3
+      // question 3
     print("Enter a Programming Language:");
     String value = stdin.readLineSync()!;
   switch (value) {
@@ -31,14 +31,14 @@ void main(){
       print('Unknown language');   
   }
 
-    // question4
+    // question 4
   int i = 20;
   while (i >= 10) {
     print(i);
     i--;
   }
   
-    // question5
+    // question 5
   print("enter number:");
   int number= int.parse(stdin.readLineSync()!);
   
